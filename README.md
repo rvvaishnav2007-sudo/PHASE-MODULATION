@@ -28,17 +28,17 @@ Use Matplotlib to plot the message signal, carrier signal, and phase-modulated s
 
 # PROGRAM 
 ~~~
-Am=3.35;
-fm=623;
-Ac=5.8625;
-fc=6230;
-fs=62300;
-b=4.38;
-kp=4.38;
+Am=2.15;
+fm=447;
+Ac=3.7625;
+fc=4470;
+fs=44700;
+b=3.02;
+kp=3.02;
 t=0:1/fs:2/fm;
 em=Am*cos(2*3.14*fm*t);
 subplot(4,1,1);
-plot(t,em);
+plot(t,em); 
 ec=Ac*cos(2*3.14*fc*t);
 subplot(4,1,2);
 plot(t,ec);
@@ -51,12 +51,13 @@ plot(t,epm);
 ~~~
 # OUTPUT WAVEFORM 
 
-<img width="1078" height="926" alt="image" src="https://github.com/user-attachments/assets/54b4833a-f04c-433b-a71b-78d1890f2f27" />
+<img width="743" height="597" alt="Screenshot 2026-08-28 155151" src="https://github.com/user-attachments/assets/b30e447c-0543-4756-a604-2fb267414fe9" />
 
 
 # TABULATION
 
-<img width="1600" height="946" alt="image" src="https://github.com/user-attachments/assets/a45302e6-c5b8-436a-8de0-c66694f64978" />
+<img width="1600" height="900" alt="WhatsApp Image 2026-08-28 at 3 55 42 PM" src="https://github.com/user-attachments/assets/daa97116-6f66-4836-8e96-53792ebdf48a" />
+
 
 # RESULT
 
