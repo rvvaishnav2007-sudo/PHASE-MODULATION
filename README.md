@@ -56,7 +56,8 @@ plot(t,epm);
 
 # TABULATION
 
-<img width="1600" height="900" alt="WhatsApp Image 2026-08-28 at 3 55 42 PM" src="https://github.com/user-attachments/assets/daa97116-6f66-4836-8e96-53792ebdf48a" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/181eef78-5e3a-4ad7-b42b-13d4532f3ea9" />
+
 
 
 # RESULT
